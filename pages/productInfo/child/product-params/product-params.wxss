@@ -1,0 +1,27 @@
+/* pages/productInfo/child/product-params/product-params.wxss */
+.params{
+  padding: 40rpx 30rpx;
+}
+.params .rule{}
+.params .rule .item{
+  display: flex;
+}
+.params .rule .item .ruleItemParam{
+  flex: 1;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 30rpx 10rpx;
+}
+.params .info{}
+.params .info .item{
+  display: flex;
+  font-size: 30rpx;
+  padding: 30rpx 10rpx;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.params .info .item .key{
+  display: inline-block;
+  width: 160rpx;
+}
+.params .info .item .value{
+  color: #ff5777;
+}

@@ -1,0 +1,14 @@
+<!--pages/home/child/home-goods/home-goods.wxml-->
+ <view class="goods">
+  <view class="goods-item" wx:for="{{goodsList}}" wx:key="index" bindtap="goProductInfo"
+  data-iid="{{item.iid}}"
+  >
+    <image class="img" src="{{item.show.img}}" mode="widthFix"></image>
+    <view class="bottom">
+      <view class="title">{{item.title}}</view>
+      <text class="price">￥{{item.price}}</text>
+      <image src="/assets/img/common/favor.png" class="icon"></image>
+      <text class="cfav">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+/* pages/home/child/home-gotop/home-gotop.wxss */
+.back{
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 20rpx;
+  right: 20rpx;
+  z-index: 111;
+  opacity: .8;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}

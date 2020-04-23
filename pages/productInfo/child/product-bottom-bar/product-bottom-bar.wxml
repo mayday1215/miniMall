@@ -1,0 +1,22 @@
+<!--pages/productInfo/child/product-bottom-bar/product-bottom-bar.wxml-->
+<view class="bottom">
+  <view class="left">
+    <view class="item">
+      <image class="img" src="/assets/img/detail/service.png"/>
+      <view class="text">客服</view>
+    </view>
+     <view class="item">
+      <image class="img" src="/assets/img/detail/shop.png"/>
+      <view class="text">店铺</view>
+    </view>
+     <view class="item">
+      <image class="img" src="/assets/img/detail/collect.png"/>
+      <view class="text">收藏</view>
+    </view>
+  </view>
+  <view class="right">
+    <view class="addCart" bindtap="addCart">加入购物车</view>
+    <view class="buy">立即购买</view>
+  </view>
+
+</view>

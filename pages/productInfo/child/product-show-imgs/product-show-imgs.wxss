@@ -1,0 +1,11 @@
+/* pages/productInfo/child/product-show-imgs/product-show-imgs.wxss */
+.show-img .title{
+  
+  font-weight: bold;
+  text-align: center;
+  color: #666;
+  padding: 26rpx 0;
+}
+.show-img .img{
+  width: 100%;
+}

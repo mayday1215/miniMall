@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cart-good-list":"./child/cart-good-list/cart-good-list",
+    "cart-good-bottom":"./child/cart-good-bottom/cart-good-bottom"
+  },
+  "navigationBarTitleText": "购物车"
+}

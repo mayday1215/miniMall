@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "product-swiper":"./child/product-swiper/product-swiper",
+    "product-message":"./child/product-message/product-message",
+    "product-shop":"./child/product-shop/product-shop",
+    "product-show-imgs":"./child/product-show-imgs/product-show-imgs",
+    "product-params":"./child/product-params/product-params",
+    "product-bottom-bar":"./child/product-bottom-bar/product-bottom-bar"
+  },
+  "navigationBarTitleText": "商品详情"
+}

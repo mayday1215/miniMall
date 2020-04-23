@@ -1,0 +1,15 @@
+<!-- pages/productInfo/productInfo.wxml -->
+<!-- 轮播图 -->
+<scroll-view class="sc" scroll-y>
+	<product-swiper swiperArr="{{swiperArr}}" />
+	<!-- 商品信息 -->
+	<product-message productInfo="{{productInfo}}" />
+	<!-- 商家信息 -->
+	<product-shop productShop="{{productShop}}" />
+	<!-- 图片展示区域 -->
+	<product-show-imgs productImgArr="{{productImgArr}}" />
+	<!-- 商品参数 -->
+	<product-params productParams="{{productParams}}" />
+</scroll-view>
+<!-- 底部栏 -->
+<product-bottom-bar bindaddCart="addCart"/>

@@ -1,0 +1,21 @@
+<!--pages/cart/child/cart-good-list/cart-good-list.wxml-->
+
+<view class="list">
+  <view class="item" wx:for="{{cartArr}}" wx:key="index">
+    <view class="checked" bindtap="selectCheck" data-iid="{{item.iid}}">
+        <icon type="success" color="{{item.isChecked?'#ff5777':'#fff'}}" size="23" class="icon"></icon>
+    </view>
+    <view class="cartImg">
+      <image class="img" src="{{item.img}}"></image>
+    </view>
+    <view class="info">
+      <view class="title">{{item.title}}</view>
+      <view class="desc">{{item.desc}}</view>
+      <view class="bottom">
+        <view class="price">{{item.price}}</view>
+        <view class="count">*{{item.count}}</view>
+      </view>
+    </view>
+
+  </view>
+</view>

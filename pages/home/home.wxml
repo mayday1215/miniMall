@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<home-swiper bannerList="{{bannerList}}" />
+
+<!--推荐 -->
+<home-recommend recommendList="{{recommendList}}"/>
+<!--流行 -->
+<home-popular/>
+
+
+
+
+<!-- tab-control -->
+<home-tab-control bind:tabConIndex="tabConIndex" controlList="{{['流行','新款','精选']}}"/>
+
+<!-- 商品展示区域 -->
+<home-goods goodsList="{{goods[tabControlType].list}}"/>
+
+
+<!-- 返回顶部 -->
+<home-gotop wx:if="{{isShowBackTop}}"/>

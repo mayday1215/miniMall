@@ -1,0 +1,18 @@
+<!--pages/productInfo/child/product-params/product-params.wxml-->
+
+
+
+<view class="params">
+  <view class="rule">
+    <view class="item" wx:for-item="ruleItem" wx:for="{{productParams.rule}}" wx:key="index">
+      <text wx:for="{{ruleItem}}" wx:for-item="ruleItemParam" wx:key="index" class="ruleItemParam">{{ruleItemParam}}</text>
+    </view>
+  </view>
+  <view class="info">
+    <view class="item" wx:for="{{productParams.info}}" wx:key="index">
+      <view class="key">{{item.key}}:</view>
+      <view class="value">{{item.value}}</view>
+    </view>
+  </view>
+
+</view> 

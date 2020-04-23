@@ -1,0 +1,11 @@
+<!--pages/home/child/home-tab-control/home-tab-control.wxml-->
+<view class="controlList">
+	<view 
+      class="controlList-item" 
+      wx:for="{{controlList}}"
+      wx:key="index"
+      bindtap="tabClcik" data-index="{{index}}">
+     
+		<text class="item-text {{index === activeIndex ? 'active' : ''}}">{{item}}</text>
+	</view>
+</view>

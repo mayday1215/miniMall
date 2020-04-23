@@ -1,0 +1,32 @@
+<!--pages/productInfo/child/product-shop/product-shop.wxml-->
+<wxs src="./../../../../wxs/format.wxs" module="mat"></wxs>
+
+
+<view class="shop">
+  <view class="logo">
+    <image class="img" src="{{productShop.logo}}"/>
+    <text class="name">{{productShop.name}}</text>
+  </view>
+  <view class="center">
+    <view class="center-left">
+      <view class="sells">
+        <view class="count">{{mat.countFromat(productShop.sells)}}</view>
+        <view class="text">总销量</view>
+      </view>
+       <view class="goods">
+        <view class="count">{{productShop.goodsCount}}</view>
+        <view class="text">全部宝贝</view>
+      </view>
+    </view>
+    <view class="center-right">
+      <view wx:for="{{productShop.score}}" wx:key="index" class="item">
+        <text class="text">{{item.name}}</text>
+        <text class="text {{item.isBetter ? 'tallColor' : 'lowColor'}}">{{item.score}}</text>
+        <text class="text {{item.isBetter ? 'tallBack' : 'lowBack'}}">{{mat.tallAndLow(item.isBetter)}}</text>
+      </view>
+    </view>
+  </view>
+
+  <navigator class="goShop">进店看看</navigator>
+
+</view>

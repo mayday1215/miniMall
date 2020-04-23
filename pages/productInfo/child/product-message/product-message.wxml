@@ -1,0 +1,20 @@
+<!--pages/productInfo/child/product-info/product-info.wxml-->
+<view class="message">
+  <view class="title">{{productInfo.title}}</view>
+  <view class="price">
+    <text class="newPrice">{{productInfo.newPrice}}</text>
+    <text class="oldPrice">{{productInfo.oldPrice}}</text>
+    <text class="disc">{{productInfo.discountDesc}}</text>
+  </view>
+  <view class="colu">
+    <text class="colu-text" wx:for="{{productInfo.columns}}" wx:key="index">{{item}}</text>
+  </view>
+  <view class="services">
+    <view class="item" wx:for="{{productInfo.services}}" wx:key="index">
+      <image class="img" src="{{item.icon}}"></image>
+      <text class="text">{{item.name}}</text>
+    </view>
+  </view>
+</view>
+
+

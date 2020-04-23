@@ -1,0 +1,7 @@
+<!--pages/productInfo/child/product-show-imgs/product-show-imgs.wxml-->
+<view class="show-img">
+  <view class="title">图片展示</view>
+  <view wx:for="{{productImgArr}}" wx:key="index">
+    <image class="img" src="{{item}}" mode="widthFix"/>
+  </view>
+</view>

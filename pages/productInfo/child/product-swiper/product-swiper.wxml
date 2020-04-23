@@ -1,0 +1,6 @@
+<!--pages/productInfo/child/product-swiper/product-swiper.wxml-->
+<swiper class="p-swiper"  indicator-dots indicator-active-color="#ff5777" autoplay interval="2000" circular>
+  <swiper-item wx:for="{{swiperArr}}" wx:key="index">
+    <image class="img" src="{{item}}" mode="widthFix"/>
+  </swiper-item>
+</swiper>

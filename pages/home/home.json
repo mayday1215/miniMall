@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "home-swiper":"./child/home-swiper/home-swiper",
+    "home-recommend":"./child/home-recommend/home-recommend",
+    "home-popular":"./child/home-popular/home-popular",
+    "home-tab-control":"./child/home-tab-control/home-tab-control",
+    "home-goods":"./child/home-goods/home-goods",
+    "home-gotop":"./child/home-gotop/home-gotop"  
+  },
+  "navigationBarTitleText": "首页"
+}

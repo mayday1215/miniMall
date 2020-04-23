@@ -1,0 +1,8 @@
+/* pages/productInfo/child/product-swiper/product-swiper.wxss */
+.p-swiper{
+  height: 250px;
+}
+.p-swiper .img{
+  width: 100%;
+  height: 100%;
+}

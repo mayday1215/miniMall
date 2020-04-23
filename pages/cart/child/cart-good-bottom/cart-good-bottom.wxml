@@ -1,0 +1,9 @@
+<!--pages/cart/child/cart-good-bottom/cart-good-bottom.wxml-->
+<view class="bottom">
+    <view class="selectAll" bindtap="selectAllClick">
+      <icon type="success" color="{{isAllChecked?'#ff5777':'#fff'}}" size="23" class="icon"></icon>
+      <text class="txt">全选</text>
+    </view>
+    <view class="totalPrice"> 合计:￥{{totalPrice}}</view>
+    <view class="buy">去计算({{counts}})</view>
+</view>

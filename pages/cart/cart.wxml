@@ -1,0 +1,11 @@
+<!--pages/cart/cart.wxml-->
+<!-- 购物车列表 -->
+<cart-good-list cartArr="{{cartArr}}" bindselectClick="selectClick"/>
+
+<!-- 底部 -->
+<cart-good-bottom
+ isAllChecked="{{isAllChecked}}" 
+ bindselectAllClick="selectAllClick"
+  totalPrice="{{totalPrice}}"
+   counts="{{counts}}"/>
+

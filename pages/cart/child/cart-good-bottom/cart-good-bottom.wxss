@@ -1,0 +1,42 @@
+/* pages/cart/child/cart-good-bottom/cart-good-bottom.wxss */
+.bottom{
+  height: 80rpx;
+  display: flex;
+  background-color: #eee;
+
+  /* line-height: 80rpx; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.selectAll{
+  width: 24%;
+  padding-left: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.selectAll .icon{
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 00, .9);
+}
+.selectAll .txt{
+  color: #646464;
+}
+.totalPrice,.buy{
+  line-height: 80rpx;
+}
+.totalPrice {
+  width: 45%;
+  color: #646464;
+}
+.buy{
+  width: 31%;
+  background-color: #fe5200;
+  color: #fff;
+  text-align: center;
+
+  
+}

@@ -1,0 +1,5 @@
+<!--pages/home/child/home-gotop/home-gotop.wxml-->
+
+<view class="back" bindtap="gotop">
+  <image class="img" src="/assets/img/common/top.png"/>
+</view>

@@ -1,0 +1,5 @@
+/* pages/productInfo/productInfo.wxss */
+.sc{
+  height: calc(100vh - 106rpx);
+  /* overflow-y: scroll; */
+}

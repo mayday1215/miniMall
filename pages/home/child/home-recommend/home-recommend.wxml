@@ -1,0 +1,7 @@
+<!--pages/home/child/home-recommend.wxml-->
+<view class="recommend">
+	<view wx:for="{{recommendList}}" wx:key="index" class="recommend-item">
+			<image src="{{item.image}}" class="img" />
+			<view class="item-text">{{item.title}}</view>
+	</view>
+</view>

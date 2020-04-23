@@ -1,0 +1,87 @@
+/* pages/productInfo/child/product-shop/product-shop.wxss */
+.shop{
+  padding: 40rpx 16rpx;
+  border-bottom: 5px solid rgba(100,100,100,.1);
+}
+.shop .logo{}
+.shop .logo .img{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 20rpx;
+  border:1px solid rgba(0,0,0,.1);
+}
+.shop .logo .name{
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.shop .center{
+  display: flex;
+  padding: 20rpx;
+  margin-top: 30rpx;
+  height: 100rpx;
+
+}
+.shop .center .center-left{
+  width: 50%;
+  border-right: 1px solid rgba(0, 0, 0, .1);
+  display: flex;
+  text-align: center;
+  
+}
+.shop .center .center-left .sells,
+.shop .center .center-left .goods{
+  flex:1;
+}
+.shop .center .center-left .text{
+  font-size: 26rpx;
+}
+.shop .center .center-left .count{
+  color: #999;
+}
+.shop .center .center-right{
+  width: 50%;
+}
+.shop .center .center-right .item{
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 34rpx;
+}
+.shop .center .center-right .item .text{
+  display: inline-block;
+  width: 100rpx;
+}
+.tallColor{
+  color: red;
+}
+.lowColor{
+  color: yellowgreen;
+}
+.tallBack{
+  background: red;
+  display: inline !important;
+  color: #fff;
+  padding: 0 8rpx;
+  
+}
+.lowBack{
+  background: yellowgreen;
+  display: inline !important;
+  color: #fff;
+  padding: 0 8rpx;
+}
+
+.goShop{
+  width: 300rpx;
+  height: 60rpx;
+  background: #f2f5f8;
+  text-align: center;
+  margin:auto;
+  border-radius:20rpx;
+  font-size: 34rpx;
+  line-height: 60rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+
+}
